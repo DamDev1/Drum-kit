@@ -28,11 +28,82 @@ body{
     margin-left: 1rem;
     font-family: sans-serif;
     text-align: center;
-    background: gray;
     width: 100px;
     padding: 10px;
     border-radius: 3px;
-    font-size: 18px;
+    font-size: 20px;
     cursor: pointer;
     transition: 0.2s;
+}
+
+.boom{
+    width: 100px;
+    height: 70px;
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('./Image/tom4.png');
+}
+
+.clap{
+    width: 100px;
+    height: 70px;
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('./Image/tom1.png');
+}
+
+.hihat{
+    width: 100px;
+    height: 70px;
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('./Image/crash.png');
+}
+
+.kick{
+    width: 100px;
+    height: 70px;
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('./Image/kick.png');
+}
+
+.openhat{
+    width: 100px;
+    height: 70px;
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('./Image/snare.png');
+}
+
+.ride{
+    width: 100px;
+    height: 70px;
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('./Image/crash.png');
+}
+
+.snare{
+    width: 100px;
+    height: 70px;
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('./Image/snare.png');
+}
+
+.tink{
+    width: 100px;
+    height: 70px;
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('./Image/tom3.png');
+}
+
+.tom{
+    width: 100px;
+    height: 70px;
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('./Image/tom1.png');
 }
