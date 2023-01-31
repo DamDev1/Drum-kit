@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #272F47;
+    box-sizing: border-box;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.container h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.container .kitsContainer{
+    display: flex;
+    margin-top: 3rem;
+}
+
+.kitsContainer #kit{
+    margin-left: 1rem;
+    font-family: sans-serif;
+    text-align: center;
+    background: gray;
+    width: 100px;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.2s;
+}
